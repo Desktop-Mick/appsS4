@@ -1,0 +1,49 @@
+.fa-search{
+	position:relative;
+	left:26px;
+	color:grey;
+}
+input[type="search"]{
+	display:inline-block;
+}
+.flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Titre{
+	text-align:center;
+	color: #cc3399;
+}
+.Titre h5{
+	font-weight:bold;
+	font-style:oblique;
+	font-family:Lucida Handwriting;
+	font-size:22px;
+}
+.search,.Titre{
+	margin-bottom:30px;
+}
+.table-hover{
+	background-color:#f2f2f2;
+	border-radius:10px;
+}
+.table-responsive th{
+	color: #ac3973;
+}
+.table-responsive, .Update a{
+	text-decoration:none;
+}
+.table-responsive, .Update a:hover{
+	text-decoration:none;
+	color:#47d147;
+}
+.table-responsive, .Delete a{
+	text-decoration:none;
+	color:#ff471a;
+}
+.table-responsive, .Delete a:hover{
+	text-decoration:none;
+	color:#ff471a;
+}

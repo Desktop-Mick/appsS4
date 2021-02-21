@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ges_Tiers</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/gesart.css">
+	<link rel="stylesheet" type="text/css" href="css/commande.css">
+</head>
+<body>
+		<div class=" container-fluid bg-dark Nav">
+			<div class="row">
+				<div class="col-md-9">
+					<ul>
+						<li class="fa fa-list"><a href="gesart.html">Gestion des Articles</a></li>
+						<li class="fa fa-dropbox"><a href="GesTiers.html">Gestion des Tiers</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 compte">
+					<!-- <a href="index.html"><i class="fa fa-power-off"><br>user@gmail.com</i></a> -->
+					<a href="gesart.html"><span class="fa fa-user"> My Account &nbsp&nbsp</span></a>
+					<a href="index.html"><span class="fa fa-power-off"> Sign Out</span></a>
+				</div>
+			</div>
+		</div>
+		<div class=" container-fluid contenue">
+			<div class="row">
+				<div class="col-md-3 part1 container">
+					<div class="art1">
+						<h5 class="fa fa-shopping-cart">Gestion de l'approviosennement</h5>
+						<ul>
+							<li><a href="gesart.html"><i class="fa fa-plus">Insertion des achats</i></a></li>
+							<li><a href="listA.html"><i class="fa fa-plus">Liste des achats</i></a></li>
+						</ul>
+					</div>
+					<div class="art2">
+						<h5 class="fa fa-book">Gestion du Stock</h5>
+						<ul>
+							<li><a href="listArt.html"><i class="fa fa-plus">Liste des articles</i></a></li>
+						</ul>
+					</div>
+					<div class="art3">
+						<h5 class="fa fa-bank">Gestion de la caisse</h5>
+						<ul>
+							<li><a href="listV.html"><i class="fa fa-plus">Liste des ventes</i></a></li>
+						</ul>
+					</div>
+					<div class="art4">
+						<h5 class="fa fa-money">Gestion des charges</h5>
+						<ul>
+							<li><a href="InserC.html"><i class="fa fa-plus">Insertion des charges</i></a></li>
+							<li><a href="listC.html"><i class="fa fa-plus">Liste des charges</i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-8 part2 container">
+					<div class="row">
+						<div class="col-md-2"></div>
+						<div class="col-md-8">
+						<div class="InserA container">
+						<h4>Créer une Commande</h4>
+						<form>
+							<div>
+								<label>Libellé</label>
+								<select class="form-control">
+									<option value="Cahier">Cachier</option>
+									<option value="Stylo">Stylo</option>
+									<option value="Crayon">Crayon</option>
+									<option value="Compas">Compas</option>
+									<option value="Gomme">Gomme</option>
+								</select>
+							</div>
+							<div>
+								<label>Prix</label>
+								<select class="form-control">
+									<option value="Cahier">12 000Ar</option>
+									<option value="Stylo">8 000Ar</option>
+									<option value="Crayon">5 000Ar</option>
+									<option value="Compas">3 000Ar</option>
+									<option value="Gomme">1 000Ar</option>
+								</select>
+							</div>
+							<div>
+								<label>Quantité</label>
+								<input type="Number" name="Number" class="form-control" placeholder="Choisissez votre  Quantité">
+							</div>
+							<div>
+								<label>Date</label>
+								<input type="date" name="date" class="form-control" style="width:100%;">
+							</div>
+							<div style="margin-top:20px;">
+								<button type="submit" class="btn btn-success">Submit</button>
+							</div>
+						</form>
+				</div>
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+
+			</div>
+		</div>
+
+
+</body>
+</html>

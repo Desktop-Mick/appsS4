@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Liste des Ventes</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/listV.css">
+	<link rel="stylesheet" type="text/css" href="css/gesart.css">
+</head>
+<body>
+		<div class=" container-fluid bg-dark Nav">
+			<div class="row">
+				<div class="col-md-9">
+					<ul>
+						<li class="fa fa-list"><a href="gesart.html">Gestion des Articles</a></li>
+						<li class="fa fa-dropbox"><a href="GesTiers.html">Gestion des Tiers</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 compte">
+					<!-- <a href="index.html"><i class="fa fa-power-off"><br>user@gmail.com</i></a> -->
+					<a href="gesart.html"><span class="fa fa-user"> My Account &nbsp&nbsp</span></a>
+					<a href="index.html"><span class="fa fa-power-off"> Sign Out</span></a>
+				</div>
+			</div>
+		</div>
+		<div class=" container-fluid contenue">
+			<div class="row">
+				<div class="col-md-3 part1 container">
+					<div class="art1">
+						<h5 class="fa fa-shopping-cart">Gestion de l'approviosennement</h5>
+						<ul>
+							<li><a href="gesart.html"><i class="fa fa-plus">Insertion des achats</i></a></li>
+							<li><a href="listA.html"><i class="fa fa-plus">Liste des achats</i></a></li>
+						</ul>
+					</div>
+					<div class="art2">
+						<h5 class="fa fa-book">Gestion du Stock</h5>
+						<ul>
+							<li><a href="listArt.html"><i class="fa fa-plus">Liste des articles</i></a></li>
+						</ul>
+					</div>
+					<div class="art3">
+						<h5 class="fa fa-bank">Gestion de la caisse</h5>
+						<ul>
+							<li><a href="listV.html"><i class="fa fa-plus">Liste des ventes</i></a></li>
+						</ul>
+					</div>
+					<div class="art4">
+						<h5 class="fa fa-money">Gestion des charges</h5>
+						<ul>
+							<li><a href="InserC.html"><i class="fa fa-plus">Insertion des charges</i></a></li>
+							<li><a href="listC.html"><i class="fa fa-plus">Liste des charges</i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-8 part2 container">
+					<div class="Titre">
+						<h5>Liste des Ventes</h5>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-hover">
+							<tr>
+								<th>Ref</th>
+								<th>Libellé</th>
+								<th>Prix</th>
+								<th>Quantité Vendue</th>
+								<th>Total</th>
+								<th style="text-align:center;" colspan="2">Actions</th>
+							</tr>
+							<tr>
+								<td>RF001</td>
+								<td>Cahier</td>
+								<td>12 000Ar</td>
+								<td>3</td>
+								<td>36 000Ar</td>
+								<td class="Update"><a href="#">Update</a></td>
+								<td class="Delete"><a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td>RF002</td>
+								<td>Crayon</td>
+								<td>5 000Ar</td>
+								<td>10</td>
+								<td>50 000Ar</td>
+								<td class="Update"><a href="#">Update</a></td>
+								<td class="Delete"><a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td>RF003</td>
+								<td>Stylo</td>
+								<td>8 000Ar</td>
+								<td>5</td>
+								<td>40 000Ar</td>
+								<td class="Update"><a href="#">Update</a></td>
+								<td class="Delete"><a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td>RF004</td>
+								<td>Compas</td>
+								<td>3 000Ar</td>
+								<td>6</td>
+								<td>18 000Ar</td>
+								<td class="Update"><a href="#">Update</a></td>
+								<td class="Delete"><a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td>RF005</td>
+								<td>Gomme</td>
+								<td>1 000Ar</td>
+								<td>8</td>
+								<td>8 000Ar</td>
+								<td class="Update"><a href="#">Update</a></td>
+								<td class="Delete"><a href="#">Delete</a></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>

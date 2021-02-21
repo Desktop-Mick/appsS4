@@ -1,0 +1,58 @@
+.login-form{
+	background-color:white;
+	width:420px;
+	height:400px;
+	margin-top:100px;
+	font-family:Lucida Calligraphy;
+	border-radius:30px;
+	box-shadow:10px 10px 20px grey;
+}
+input[type="mail"],input[type="password"],button{
+	margin-top:5px;
+	text-align:center;
+	background-color:#f0f5f5;
+
+}
+input[type="mail"],input[type="password"]{
+	height:50px;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-radius:0px;
+
+}
+.login-nav,.login-basse{
+	text-align: center;
+}
+.login-basse button a{
+	text-decoration:none;
+	color:white;
+}
+.fa-user-circle{
+	font-size:70px;
+}
+.fa-eye-slash{
+	position:relative;
+	left:364px;
+	top: -35px;
+	font-size:20px;
+}
+.fa-envelope-o{
+	position:relative;
+	left:348px;
+	top: -40px;
+	font-size:40px;
+	color:#a2c3c3;
+}
+.forgot{
+	background-color: #f0f5f5;
+	height:auto;
+	margin-top:10px;
+	
+}
+.forgot a{
+	padding-top:10px;
+	text-align:center;
+	text-decoration:none;
+	color:
+}
